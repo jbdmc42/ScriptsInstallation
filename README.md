@@ -8,8 +8,8 @@ openVSC42 and compCS42 download and install
 # 2. On Visual Studio Code, download the 42 HEADER (LONG) extension
 
 # 3. Use the Makefile to install the scripts.
-↳ Do "make install" on the folder where you have the Makefile
-↳ Do "export PATH=$HOME/bin:$PATH" 
++ Do "make install" on the folder where you have the Makefile
++ Do "export PATH=$HOME/bin:$PATH" 
 + "source ~/.zshrc" or "source ~/.bashrc" depending on the type of terminal you're using
 
 # 4. Install xdotool.
@@ -24,23 +24,25 @@ openVSC42 and compCS42 download and install
 + "source ~/.zshrc" (or ~/.bashrc)
 
 # 5. Install code.
-↳ Do "echo $PATH" and look for /snap/bin
-↳ If you don't find it, do "export PATH=/snap/bin:$PATH"
++ Do "echo $PATH" and look for /snap/bin
++ If you don't find it, do "export PATH=/snap/bin:$PATH"
 + echo 'export PATH=/snap/bin:$PATH' > ~/.zshrc" (or ~/.bashrc)
-↳ Do "wget https://update.code.visualstudio.com/latest/linux-x64/stable -O vscode.tar.gz"
++ Do "wget https://update.code.visualstudio.com/latest/linux-x64/stable -O vscode.tar.gz"
 + "mkdir -p ~/vscode"
 + "tar -xvzf vscode.tar.gz -C ~/vscode --strip-components=1"
-↳ Do "export PATH="$HOME/vscode/bin:$PATH"
++ Do "export PATH="$HOME/vscode/bin:$PATH"
 + "source ~/.zshrc" (or ~/.bashrc)
-↳ To verify use "code --version"
++ To verify use "code --version"
 
 # 6. openVSC42 quick help
-↳ To use openVSC42, do "openVSC42 file_name.c --with-header" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
++ To use openVSC42, do "openVSC42 file_name.c --with-header" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
 
 # 7. compCS42 quick help 
-↳ To use compCS42, do "compCS42 filename.c"
++ To use compCS42, do "compCS42 filename.c"
 
+# 8. Quick guide
++ Use one of the commands on the folder where the file is located with the syntax "command file_name.c" or "command ~/path/to/file/file_name.c"
 
-# 8. INFO 
-↳For more info, do "openVSC42" or "compCS42"
-↳I WILL MAKE A FILE EXPLAINING MY CODE IN THE FUTURE. I HOPE YOU ENJOY MY WORK ;D
+# 9. INFO 
++ For more info, do "openVSC42" or "compCS42"
++ I WILL MAKE A FILE EXPLAINING MY CODE IN THE FUTURE. I HOPE YOU ENJOY MY WORK ;D
