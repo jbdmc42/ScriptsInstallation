@@ -34,10 +34,13 @@ openVSC42 and compCS42 download and install
 + "source ~/.zshrc" (or ~/.bashrc)
 ↳ To verify use "code --version"
 
-# 6. To use openVSC42, do "openVSC42 file_name.c --with-header" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
+# 6. openVSC42 quick help
+↳ To use openVSC42, do "openVSC42 file_name.c --with-header" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
 
-# 7. To use compCS42, do "compCS42 filename.c"
+# 7. compCS42 quick help 
+↳ To use compCS42, do "compCS42 filename.c"
 
-# 8. For more info, do "openVSC42" or "compCS42"
 
-I WILL MAKE A FILE EXPLAINING MY CODE IN THE FUTURE. I HOPE YOU ENJOY MY WORK ;D
+# 8. INFO 
+↳For more info, do "openVSC42" or "compCS42"
+↳I WILL MAKE A FILE EXPLAINING MY CODE IN THE FUTURE. I HOPE YOU ENJOY MY WORK ;D
