@@ -28,11 +28,12 @@ if [ $? -eq 0 ]; then
     echo -e "\n\e[1;0;40mCompilation Successful! \e[1;31;40mExecutable file\e[1;0;40m: \e[1;95;40m$output\e[0m\n"
     
     echo -e "\e[1;31;40mApplying \e[1;95;40mchmod \e[1;31;40mpermissions...\e[0m\n\n"
+    chmod 711 "$arquivo"
     chmod 711 "$output"
     echo -e "\e[1;31mINFO TABLE:\e[0m"
     echo -e "\n\e[1;31m---| PERMISSIONS -----| LINKS -----| USER -----| GROUP -----| SIZE -----| FULL TIMESTAMP -----------------------| FILE NAME --------------------------------------|\e[0m"
 
-    ls --full-time -l "$output" | awk '{
+    ls --full-time -l "$output" && "$arquivo" | awk '{
         printf "   | %-16s | %-10s | %-9s | %-10s | %-9s | %-37s | %-47s", $1, $2, $3, $4, $5, $6" "$7" "$8, $9
     }'
 
