@@ -3,7 +3,7 @@ openVSC42 and compCS42 download and install
 
 # HOW TO USE AND INSTALL: openVSC42 compCS42
 
-# 1. Access  and use git clone on the terminal to get the files
+# 1. Use "git clone link name" on the terminal to get the files on HOME directory
 
 # 2. On Visual Studio Code, download the 42 HEADER (LONG) extension
 
@@ -44,5 +44,6 @@ openVSC42 and compCS42 download and install
 + Use one of the commands on the folder where the file is located with the syntax "command file_name.c" or "command ~/path/to/file/file_name.c"
 
 # 9. INFO 
++ openVSC42 can fail. If it does please message me on slack
 + For more info, do "openVSC42" or "compCS42"
 + I WILL MAKE A FILE EXPLAINING MY CODE IN THE FUTURE. I HOPE YOU ENJOY MY WORK ;D
