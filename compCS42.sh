@@ -8,10 +8,10 @@ BR="\e[1;31m"
 BP="\e[1;95m"
 RESET="\e[0m"
 
-if [ "$#" -ne 1 || "$#" -ne 2 ]; then
+if [[ "$#" -ne 1 && "$#" -ne 2 ]]; then
     echo -e "\n${BRB}Syntax${BWB}: ${BPB}compCS${BOB} <${BPB}file_name${BOB}>${BWB}.${RESET}\n"
     echo -e "${BRB}After compiling${BWB}, ${BRB}use ${BPB}./${BOB}<${BPB}file_name${BOB}>${BWB}.${RESET}\n"
-    echo -e "${BRB}Use ${BPB}--with-header ${BRB}to open the file and automatically generate the header${BWB}.${RESET}\n"
+    echo -e "${BRB}Use ${BPB}--git-commit ${BRB}to commit the file automatically (only works on github repositories)${BWB}.${RESET}\n"
     exit 1
 fi
 
