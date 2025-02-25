@@ -9,10 +9,11 @@ openVSC42 and compCS42 download and install
 # 2. Visual Studio Code plugin 
 + On Visual Studio Code, download the 42 HEADER (LONG) extension
 
-# 3. Use the Makefile to install the scripts.
+# 3. Use the Makefile to install and update the scripts.
 + Do "make install" on the folder where you have the Makefile
 + Do "export PATH=$HOME/bin:$PATH" 
 + "source ~/.zshrc" or "source ~/.bashrc" depending on the type of terminal you're using
++ Download the latest files from this repository and do "make update" on the folder where you have the Makefile to automatically update your scripts
 
 # 4. Install xdotool.
 ↳ In Home directory, do "mkdir -p ~/local" 
@@ -37,10 +38,10 @@ openVSC42 and compCS42 download and install
 + To verify use "code --version"
 
 # 6. openVSC42 quick help
-+ To use openVSC42, do "openVSC42 file_name.c --with-header" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
++ To use openVSC42, do "openVSC42 --with-header file_name.c" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
 
 # 7. compCS42 quick help 
-+ To use compCS42, do "compCS42 filename.c"
++ To use compCS42, do "compCS42 --git-commit filename.c" to commit after using compCS42
 
 # 8. Quick guide
 + Use one of the commands on the folder where the file is located with the syntax "command file_name.c" or "command ~/path/to/file/file_name.c"
