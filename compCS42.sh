@@ -41,7 +41,7 @@ if [ $? -eq 0 ]; then
     echo -e "${BR}INFO TABLE:${RESET}"
     echo -e "\n${BR}---| PERMISSIONS -----| LINKS -----| USER -----| GROUP -----| SIZE -----| FULL TIMESTAMP -----------------------| FILE NAME --------------------------------------|${RESET}"
     
-    ls --full-time -l "$output" | awk '{
+    ls --full-time -l "$arquivo" | awk '{
         printf "   | %-16s | %-10s | %-9s | %-10s | %-9s | %-37s | %-47s", $1, $2, $3, $4, $5, $6" "$7" "$8, $9
     }'
 

@@ -38,10 +38,10 @@ openVSC42 and compCS42 download and install
 + To verify use "code --version"
 
 # 6. openVSC42 quick help
-+ To use openVSC42, do "openVSC42 --with-header file_name.c" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
++ To use openVSC42, do "openVSC42 file_name.c --with-header" to open the file on Visual Studio Code and generate a header automatically (remember that you need the 42 HEADER (LONG) extension to generate the header)
 
 # 7. compCS42 quick help 
-+ To use compCS42, do "compCS42 --git-commit filename.c" to commit after using compCS42
++ To use compCS42, do "compCS42 filename.c --git-commit" to commit after using compCS42
 
 # 8. Quick guide
 + Use one of the commands on the folder where the file is located with the syntax "command file_name.c" or "command ~/path/to/file/file_name.c"
