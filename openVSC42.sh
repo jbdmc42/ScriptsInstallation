@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$#" -lt 1 ] || [ "$#" -gt 2 ]; then
-    echo -e "\n\e[1;31;40mSyntax\e[1;0;40m: \e[1;95;40mopenVSC \e[1;91;40m<\e[1;95;40mfile_name.\e[1;95;40mc\e[1;91;40m>\e[0m\n"
+    echo -e "\n\e[1;31;40mSyntax\e[1;0;40m: \e[1;95;40mopenVSC42 \e[1;91;40m<\e[1;95;40mfile_name.\e[1;95;40mc\e[1;91;40m>\e[0m\n"
     echo -e "\e[1;31;40mUse \e[1;95;40m--with-header \e[1;31;40mto open the file and automatically generate the header\e[1;0;40m.\e[0m\n"
     echo -e "\e[1;31;40mInstall \e[1;95;40mxdotool \e[1;31;40mwith\e[1;0;40m: \e[1;95;40msudo apt install xdotool\e[1;0;40m.\e[0m\n"
     echo -e "\e[1;31;40mInstall \e[1;95;40mnorminette header plugin \e[1;31;40min Visual Studio Code to generate automatic headers\e[1;0;40m.\e[0m\n"
