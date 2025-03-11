@@ -14,6 +14,7 @@ if [[ "$#" -lt 1 ]]; then
     echo -e "\n${BRB}Syntax${BWB}: ${BPB}compCS${BOB} <${BPB}file_name${BOB}>${BWB}.${RESET}\n"
     echo -e "${BRB}After compiling${BWB}, ${BRB}use ${BPB}./${BOB}<${BPB}file_name${BOB}>${BWB}.${RESET}\n"
     echo -e "${BRB}Use ${BPB}--git-commit ${BRB}to commit the file automatically (only works on github repositories)${BWB}.${RESET}\n"
+    echo -e "${BRB}Use ${BPB}--add-args ${BRB}and then add your arguments to execute the compiled file with them${BWB}.${RESET}\n"
     exit 1
 fi
 
