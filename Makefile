@@ -13,15 +13,15 @@ $(SCRIPTS): %: %.sh
 
 update:
 	@for script in $(SCRIPTS); do \
-		echo "Verificando $$script..."; \
+		echo "Verifying $$script..."; \
 		TEMP_FILE="/tmp/$$script.sh"; \
 		wget -q -O $$TEMP_FILE $(REPO_URL)/$$script.sh; \
 		if [ ! -f "$(BIN_DIR)/$$script" ] || ! cmp -s $$TEMP_FILE "$(BIN_DIR)/$$script"; then \
-			echo "Atualizando $$script..."; \
+			echo "Updating $$script..."; \
 			mv $$TEMP_FILE "$(BIN_DIR)/$$script"; \
 			chmod +x "$(BIN_DIR)/$$script"; \
 		else \
-			echo "$$script já está atualizado."; \
+			echo "$$script is already up to date."; \
 			rm $$TEMP_FILE; \
 		fi \
 	done
